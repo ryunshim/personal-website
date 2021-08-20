@@ -65,6 +65,10 @@ html, body {
   text-decoration: none;
 }
 
+.navtabs>a:hover {
+  color: #D44747;
+}
+
 .navtabs>a:first-child {
   margin-left: 0;
   font-size: 20px;
