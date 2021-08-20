@@ -162,6 +162,10 @@ html, body {
   text-decoration: none;
 }
 
+.blurb-subtext>a:hover {
+  color: #D44747;
+}
+
 .dummy-space {
   height: 124px;
 }
