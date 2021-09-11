@@ -50,7 +50,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin: 0 112px;
+  margin: 0 112px 64px;
 }
 
 .navtabs-div {
@@ -91,7 +91,6 @@ a {
 }
 
 .header {
-  margin-top: 64px;
   display: inline-block;
   display: flex;
 }
