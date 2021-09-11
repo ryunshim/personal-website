@@ -1,0 +1,291 @@
+@font-face {
+  font-family: "SF Pro";
+  src: url(../fonts/SF-Pro-Display-Bold.woff);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "SF Pro";
+  src: url(../fonts/SF-Pro-Display-Medium.woff);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "SF Pro";
+  src: url(../fonts/SF-Pro-Display-Regular.woff);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "SF Pro";
+  src: url(../fonts/SFProDisplay-Semibold.ttf);
+  font-weight: 700;
+}
+
+html, body {
+  font-family: "SF Pro";
+  background-color: #FBFBFB;
+  margin: 0;
+  height: 100%
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.body {
+  margin: 0 112px;
+  color: #1a1f23;
+}
+
+.nav {
+  height: 122px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 112px;
+}
+
+.navtabs-div {
+  height: 38px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navtabs {
+  height: 38px;
+  background-color: #FBFBFB;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navtabs>a {
+  margin-left: 48px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navtabs>a:hover {
+  color: #D44747;
+}
+
+.navtabs>a:first-child {
+  margin-left: 0;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.inactive-link {
+  color: #57606A;
+}
+
+.active-link {
+  font-weight: bold;
+}
+
+.header {
+  margin-top: 64px;
+  display: inline-block;
+  display: flex;
+}
+
+.point {
+  margin-right: 32px;
+  width: 60px;
+  height: 60px;
+  margin-top: 4px;
+}
+
+.mobile-point {
+  display: none;
+}
+
+.nice-to-meet {
+  font-size: 64px;
+  font-weight: bold;
+  display: block;
+  line-height: 64px;
+}
+
+.a-little-more {
+  font-size: 36px;
+  display: block;
+  line-height: 50px;
+  margin-top: 9px;
+}
+
+.main-desc {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgdiv {
+  display: inline-block;
+  width: 40%;
+  min-width: 420px;
+  /* margin-left: 135px; */
+}
+
+.mobile-imgdiv {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 36px;
+  align-self: center;
+  display: none;
+}
+
+.ryun {
+  width: 100%;
+}
+
+.blurb {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 24px;
+  min-width: 560px;
+  line-height: 34px;
+}
+
+.blurb-main {}
+
+.blurb-subtext {
+  color: #57606A;
+  font-weight: 600;
+}
+
+.blurb-subtext>a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.blurb-subtext>a:hover {
+  color: #D44747;
+}
+
+.dummy-space {
+  height: 124px;
+}
+
+.bottombar {
+  margin-top: auto;
+  height: 76px;
+  background-image: url("../assets/bottom.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 112px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons a {
+  margin-left: 24px;
+}
+
+.icons a img {
+  width: 19px;
+}
+
+.icons a:first-child {
+  margin-left: 0;
+}
+
+.cornell-red {
+  color: #B31B1B;
+}
+
+.increased-line-height {
+  padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .main-desc {
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgdiv {
+    margin-bottom: 40px;
+  }
+  .blurb {
+    width: 100%;
+  }
+  .blurb-subtext {
+    order: 1;
+  }
+  .imgdiv {
+    display: none;
+  }
+  .mobile-imgdiv {
+    display: inline-block;
+    margin-top: 24px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .imagediv {
+    min-width: 150px;
+  }
+  .blurb {
+    min-width: 0;
+  }
+}
+
+@media only screen and (max-width: 556px) {
+  .body {
+    margin: 0 24px;
+  }
+  .nav {
+    height: 92px;
+    margin: 0 24px;
+  }
+  .bottombar {
+    padding: 0 24px;
+  }
+  .navtabs>a {
+    font-size: 18px;
+    margin-left: 32px;
+  }
+  .point {
+    display: none;
+  }
+  .mobile-point {
+    display: block;
+  }
+  .nice-to-meet {
+    font-size: 36px;
+    line-height: 38px;
+    margin-top: 4px;
+  }
+  .a-little-more {
+    font-size: 27px;
+    line-height: 27px;
+    margin-top: 4px;
+  }
+  .icons a img {
+    width: 28px;
+  }
+  .blurb {
+    font-size: 18px;
+  }
+  .increased-line-height {
+    padding-bottom: 8px;
+  }
+}
