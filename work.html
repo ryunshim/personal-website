@@ -7,9 +7,8 @@
       content="width=device-width, initial-scale=1, minimum-scale=1"
     />
     <link rel="stylesheet" href="css/work.css" />
-    <script>
-      // alert("Hi! I'm still working on this website as of 9/11/21 at 8:31PM, so the case studies aren't up yet!");
-    </script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
   </head>
   <body>
     <div class="main">
@@ -37,7 +36,10 @@
             <h1 class="big-selected">Selected</h1>
           </div>
           <div class="selected-holder"><br></div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" 
+data-aos-duration="350"
+    data-aos-easing="ease-in"
+    data-aos-once="true">
             <img src="./assets/dovana.svg"/>
             <div class="card-placeholder" ></div>
             <div class="card-right">
@@ -59,7 +61,10 @@
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" 
+data-aos-duration="350"
+    data-aos-easing="ease-in"
+    data-aos-once="true">
             <img src="./assets/kakao.svg"/>
             <div class="card-placeholder" ></div>
             <div class="card-right">
@@ -84,7 +89,10 @@
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" 
+data-aos-duration="350"
+    data-aos-easing="ease-in"
+    data-aos-once="true">
             <img src="./assets/lab.svg"/>
             <div class="card-placeholder" ></div>
             <div class="card-right">
@@ -109,7 +117,10 @@
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" 
+data-aos-duration="350"
+    data-aos-easing="ease-in"
+    data-aos-once="true">
             <img src="./assets/podcast.svg"/>
             <div class="card-placeholder" ></div>
             <div class="card-right">
@@ -161,5 +172,9 @@
         </div>
       </div>
     </div>
+    <script src="./scripts/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
