@@ -88,3 +88,114 @@
 .increased-height>li {
     line-height: 45px;
 }
+
+.spaced-italics-div {
+    margin: 0 104px 76px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.span-img2 {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.diagram-caption {
+    margin-bottom: 60px;
+}
+
+.persona-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px 0 #1A1F2319, 0 -4px 10px 0 #1A1F2319;
+    padding: 38px 104px 44px;
+    margin-bottom: 60px;
+}
+
+.persona-flex {
+    display: flex;
+}
+
+.persona-left {
+    flex: 1 1 0;
+}
+
+.persona-right {
+    flex: 2.5 0.4 0;
+}
+
+.rounded-img {
+    border-radius: 8px;
+}
+
+.persona-name {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 12px 0 8px;
+}
+
+.persona-header {
+    line-height: 48px;
+    font-weight: 600;
+}
+
+.persona-bg {
+    margin-bottom: 24px;
+}
+
+.lab-main {
+    line-height: 35px;
+}
+
+ul {
+    margin: 0;
+}
+
+ol {
+    margin: 0;
+}
+
+.proposal-flex {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.proposal-left {
+    flex: 1 1 0;
+}
+
+.proposal-middle {
+    flex: 0 0 136px;
+}
+
+.proposal-right {
+    flex: calc(800/280) calc(280/800) 0;
+}
+
+.proposal-image {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.proposal-desc-bot {
+    margin-top: 10px;
+}
+
+.direction-desc {
+    margin-bottom: 24px;
+}
+
+.direction-flex {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 192px;
+}
+
+.direction-img {
+    display: block;
+    flex: 1 1 280px;
+    margin: 0 auto 16px;
+}
+
+.direction-middle-panel {
+    flex: 0 0 240px;
+}
