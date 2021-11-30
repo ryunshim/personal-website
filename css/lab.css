@@ -1,10 +1,12 @@
 @import url('./styles.css');
+
 .lab-title {
     color: #4E7B11;
 }
 
 .lab-banner {
     width: 100%;
+    filter: drop-shadow(0 25.33px 20px #5E980F4D)
 }
 
 .banner-div {

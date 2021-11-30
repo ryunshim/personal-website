@@ -4,6 +4,8 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Ryun Shim's Website</title>
+  <link rel="icon" type="image/x-icon" href="./assets/fav.png">
   <link rel="stylesheet" href="css/work.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -11,24 +13,14 @@
 
 <body>
   <div class="main">
-    <div class="nav">
-      <div class="navtabs-div">
-        <div class="navtabs">
-          <a href="./work.html" class="active-link">Work</a>
-          <a href="./" class="inactive-link">About</a>
-          <a href="./under_construction.html" class="inactive-link">Art</a>
-          <a href="./assets/resume.pdf" target="_blank" class="inactive-link">Resume</a>
-        </div>
-      </div>
+    <div id="header">
     </div>
     <div class="body">
-      <div class="header">
-        <image src="./assets/wave.svg" class="point" />
-        <div class="right-header">
-          <image src="./assets/wave.svg" class="mobile-point" />
-          <span class="nice-to-meet">Hello, I’m Ryun.</span>
-          <span class="a-little-more">An artist turned designer with a focus on digital product design and branding
-            <span class="cornell-red">@Cornell.</span></span>
+      <div class="work-header">
+        <img src="assets/ryun-text.svg">
+        <div class="work-desc">
+          An <mark class="red-highlight">artist turned designer</mark> with a focus on digital product design and
+          branding at Cornell University.
         </div>
       </div>
       <div class="main-disp">
@@ -149,20 +141,15 @@
         </div>
       </div>
     </div>
-    <div class="bottombar">
-      <span>With ♥, Ryun Shim</span>
-      <div class="icons">
-        <a href="https://www.linkedin.com/in/ryunshim" target="_blank"><img src="./assets/linkedin_icon.svg" /></a>
-        <a href="mailto:rs2279@cornell.edu" target="_blank">
-          <img src="./assets/email_icon.svg" /></a>
-        <a href="https://ryunshim.medium.com/" target="_blank"><img src="./assets/medium_icon.svg" />
-        </a>
-      </div>
+    <div id="footer">
     </div>
   </div>
   <script src="./scripts/aos.js"></script>
-  <script>
+  <script src="./scripts/jquery.js"></script>
+  <script src="./scripts/headers.js"></script>
+  <script type="text/javascript">
     AOS.init();
+    enableHeader("#work");
   </script>
 </body>
 
