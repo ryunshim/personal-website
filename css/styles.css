@@ -4,7 +4,6 @@
   font-weight: normal;
 }
 
-
 @font-face {
   font-family: "SF Pro";
   src: url(../fonts/SF-Pro-Display-Medium.woff);
@@ -23,9 +22,16 @@
   font-weight: bold;
 }
 
-html, body {
+@font-face {
   font-family: "SF Pro";
-  background-color: #FBFBFB;
+  src: url(../fonts/SF-Pro-Display-Heavy.ttf);
+  font-weight: 800;
+}
+
+html,
+body {
+  font-family: "SF Pro";
+  background-color: #fbfbfb;
   margin: 0;
   height: 100%;
   font-size: 24px;
@@ -34,6 +40,12 @@ html, body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+ol, ul, li {
+  line-height: inherit;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .main {
@@ -63,7 +75,7 @@ a {
 
 .navtabs {
   height: 38px;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   display: flex;
   justify-content: space-between;
 }
@@ -75,7 +87,7 @@ a {
 }
 
 .navtabs>a:hover {
-  color: #D44747;
+  color: #d44747;
 }
 
 .navtabs>a:first-child {
@@ -85,7 +97,7 @@ a {
 }
 
 .inactive-link {
-  color: #57606A;
+  color: #57606a;
 }
 
 .active-link {
@@ -160,7 +172,7 @@ a {
 .blurb-main {}
 
 .blurb-subtext {
-  color: #57606A;
+  color: #57606a;
   font-weight: 500;
 }
 
@@ -170,7 +182,7 @@ a {
 }
 
 .blurb-subtext>a:hover {
-  color: #D44747;
+  color: #d44747;
 }
 
 .dummy-space {
@@ -185,7 +197,7 @@ a {
   margin-top: auto;
   height: 76px;
   /* background-image: url("../assets/bottom.svg"); */
-  background-color: #D4474733;
+  background-color: #d4474733;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -213,10 +225,6 @@ a {
   margin-left: 0;
 }
 
-.cornell-red {
-  color: #B31B1B;
-}
-
 .increased-line-height {
   padding-bottom: 15px;
 }
@@ -226,7 +234,7 @@ a {
 }
 
 .red-highlight {
-  background-color: #D4474733;
+  background-color: #d4474733;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -261,7 +269,7 @@ a {
 .heart-div {
   margin: 56px 0 64px;
   display: flex;
-  border: 5px none #C4C4C4;
+  border: 5px none #c4c4c4;
   border-bottom-style: solid;
   flex-direction: column;
 }
@@ -272,10 +280,10 @@ a {
 
 .expanding-gray {
   margin-top: 32px;
-  border: 2.5px solid #C4C4C4;
+  border: 2.5px solid #c4c4c4;
   border-radius: 2.5px;
   height: 0px;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
   flex: 1 1 0;
 }
 
@@ -302,7 +310,31 @@ a {
 }
 
 .heart-scroller>span:hover {
-  color: #D44747
+  color: #d44747;
+}
+
+.ryun-red {
+  color: #d44747;
+}
+
+.cornell-red {
+  color: #b31b1b;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.upper {
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 800px) {
