@@ -67,11 +67,13 @@
     flex-direction: column;
     gap: 28px;
     font-size: 24px;
-    color: #D6D3D3;
-    text-align: center;
     align-items: center;
 }
 
+.caption {
+    color: #D6D3D3;
+    text-align: center;
+}
 
 .bold-red {
     color: #d44747;
@@ -199,4 +201,12 @@
 .user-stats span {
     display: inline-block;
     flex: 0 0 140px;
+}
+
+.inv-margin {
+    margin: 0 -312px;
+}
+
+.user-title-correction {
+    margin: 0 312px;
 }
