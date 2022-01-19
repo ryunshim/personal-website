@@ -19,7 +19,8 @@
       <div class="work-header">
         <img src="assets/ryun-text.svg">
         <div class="work-desc">
-          An <mark class="red-highlight">artist turned designer</mark> with a focus on digital product design and
+          An <span id="highlight" class="red-highlight">artist turned designer</span> with a focus on digital <br />
+          product design and
           branding at Cornell University.
         </div>
       </div>
@@ -148,6 +149,9 @@
   <script type="text/javascript">
     AOS.init();
     enableHeader("#work");
+    setTimeout(() => {
+      $("#highlight").addClass("transition-highlight");
+    }, 400);
   </script>
 </body>
 

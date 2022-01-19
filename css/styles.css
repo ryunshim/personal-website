@@ -234,7 +234,14 @@ ol, ul, li {
 }
 
 .red-highlight {
-  background-color: #d4474733;
+  background: linear-gradient(to right, #d4474733 50%, #ffffff00 50%);
+  background-size: 200% 100%;
+  background-position: right;
+}
+
+.transition-highlight {
+  transition: all 1s ease-out;
+  background-position: left;
 }
 
 @media only screen and (max-width: 1300px) {
