@@ -306,17 +306,15 @@ ol, ul, li {
 }
 
 .heart-scroller {
-  display: flex;
-  white-space: nowrap;
-  transform: translate(100vw, 0);
+  /* transform: translate(100vw, 0); */
 }
 
-.heart-scroller>span {
-  margin-right: 144px;
+.heart-scroller span {
   font-weight: 600;
+  margin-right: 144px;
 }
 
-.heart-scroller>span:hover {
+.heart-scroller span:hover {
   color: #d44747;
 }
 
