@@ -240,7 +240,7 @@ ol, ul, li {
 }
 
 .transition-highlight {
-  transition: all 1s ease-out;
+  transition: all 0.7s ease-in-out;
   background-position: left;
 }
 
