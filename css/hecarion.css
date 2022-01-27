@@ -110,3 +110,9 @@
 .carousel-indicators .active {
     background-color: #d44747 !important;
 }
+
+.ideation-body {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
