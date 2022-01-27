@@ -132,6 +132,11 @@
     font-weight: 700;
 }
 
+.magic:hover {
+    /* color: #D44747; */
+    /* filter: filter: invert(40%) sepia(48%) saturate(855%) hue-rotate(313deg) brightness(91%) contrast(101%); */
+}
+
 @media only screen and (max-width: 800px) {
     .big-selected {
         font-size: 16vw;

@@ -20,3 +20,10 @@ arrow.onclick = () => {
         behavior: 'smooth'
     });
 }
+
+const fx = () => {
+    const slides = $$(".slide");
+    slides.array.forEach(slide => {
+        slide.onclick(() => $('.carousel').carousel(parseInt(slide.getAttribute("num"))));
+    });
+}
