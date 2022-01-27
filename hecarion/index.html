@@ -359,7 +359,7 @@
                         Ideation:
                     </div>
                     <div class="carousel-wrapper">
-                        <div id="ideation-carousel" class="carousel slide" data-ride="carousel">
+                        <div id="ideation-carousel" class="carousel slide lazy-load" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#ideation-carousel" data-slide-to="0" class="active"></li>
                                 <li data-target="#ideation-carousel" data-slide-to="1"></li>
@@ -376,8 +376,6 @@
                                 <li data-target="#ideation-carousel" data-slide-to="12"></li>
                                 <li data-target="#ideation-carousel" data-slide-to="13"></li>
                                 <li data-target="#ideation-carousel" data-slide-to="14"></li>
-                                <li data-target="#ideation-carousel" data-slide-to="15"></li>
-
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -460,6 +458,13 @@
     <script src="/scripts/headers.js"></script>
     <script type="text/javascript">
         enableHeader("#work");
+        $(function () {
+            $('.carousel.lazy-load').bind('slide.bs.carousel', function (e) {
+                var image = $(e.relatedTarget).find('img[data-src]');
+                image.attr('src', image.data('src'));
+                image.removeAttr('data-src');
+            });
+        });
     </script>
 </body>
 

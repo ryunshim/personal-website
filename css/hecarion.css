@@ -104,6 +104,7 @@
 
 .carousel-indicators li {
     background-color: #d4474733 !important;
+    height: 6px !important;
 }
 
 .carousel-indicators .active {
