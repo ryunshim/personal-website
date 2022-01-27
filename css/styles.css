@@ -40,6 +40,9 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.mynav a {
   color: inherit;
 }
 
@@ -60,7 +63,7 @@ ol, ul, li {
   color: #1a1f23;
 }
 
-.nav {
+.mynav {
   height: 122px;
   display: flex;
   flex-direction: column;
@@ -378,7 +381,7 @@ ol, ul, li {
     font-size: 24px;
   }
 
-  .nav {
+  .mynav {
     height: 92px;
     margin: 0 24px;
   }
