@@ -89,7 +89,18 @@
         </div>
       </div>
     </div>
-    <div class="dummy-space ds-smaller"></div>
+    <div class="body">
+      <div class="more">
+        Interested in knowing more?
+      </div>
+      <div>
+        Shoot me an email at <a href="mailto:rs2279@cornell.edu" class="ryun-red">rs2279@cornell.edu</a> if you want to
+        <br class="hidemobile" />
+        chat about my work or
+        grab bubble tea.
+      </div>
+    </div>
+    <div class="dummy-space"></div>
     <div id="footer">
     </div>
   </div>
@@ -101,7 +112,7 @@
       duplicated: true,
       gap: 0,
       delayBeforeStart: 0,
-      speed: 100,
+      speed: screen.width >= 556 ? 100 : 50,
       direction: "right",
       startVisible: true,
     });

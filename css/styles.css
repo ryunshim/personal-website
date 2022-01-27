@@ -275,7 +275,7 @@ ol, ul, li {
 }
 
 .heart-div {
-  margin: 56px 0 64px;
+  margin: 56px 0 0;
   display: flex;
   border: 5px none #c4c4c4;
   border-bottom-style: solid;
@@ -343,6 +343,12 @@ ol, ul, li {
   text-transform: uppercase;
 }
 
+.more {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 86px 0 8px;
+}
+
 @media only screen and (max-width: 800px) {
   .imagediv {
     min-width: 150px;
@@ -354,8 +360,22 @@ ol, ul, li {
 }
 
 @media only screen and (max-width: 556px) {
+
+  .hidemobile {
+    display: none;
+  }
+
+  .heart-scroller span {
+    font-size: 18px;
+  }
+
   .body {
     margin: 0 24px;
+    font-size: 18px;
+  }
+
+  .more {
+    font-size: 24px;
   }
 
   .nav {
