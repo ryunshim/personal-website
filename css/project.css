@@ -212,5 +212,11 @@
 }
 
 .full-width {
-    margin: 0 -424px;
+    margin: 0 -128px;
+}
+
+.gap32 {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
 }
