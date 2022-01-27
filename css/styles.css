@@ -80,7 +80,7 @@ ol, ul, li {
 
 .navtabs {
   height: 38px;
-  background-color: #fbfbfb;
+  background-color: transparent;
   display: flex;
   justify-content: space-between;
 }
